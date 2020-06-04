@@ -22,3 +22,10 @@ class FlashPage < SitePrism::Page
     button.click
   end
 end
+class Login < SitePrism::Page
+  element :login, '[css=".btn"]'
+
+  def page_visible
+    login.text
+  end
+end
