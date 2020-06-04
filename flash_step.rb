@@ -13,8 +13,10 @@ When(/^I fill the form$/) do
   Password :'Test123,./'
   Confirm_password :'Test123,./'
   )
+@create.send
 end
 
 Then(/^I display result$/) do
-  @create.send
+  log = Login.new
+  expect(log.page_visible).to eq('Login')
 end
