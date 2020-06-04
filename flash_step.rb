@@ -1,7 +1,7 @@
 require_relative '../pages/flash_page.rb'
 
 Given(/^We are on FlashSale signup form$/) do
-  @create = Createuser.new
+  @create = FlashPage.new
   @create.load
 end
 
