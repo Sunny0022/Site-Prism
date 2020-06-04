@@ -1,6 +1,6 @@
 require 'site_prism'
 require 'rspec'
-require 'capybara'
+require 'capybara/cucumber'
 
 class FlashPage < SitePrism::Page
   set_url 'http://shubham.domain4now.com/users/new'
