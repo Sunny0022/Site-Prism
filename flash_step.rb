@@ -1,4 +1,4 @@
-require_relative '../pages/flash_page.rb'
+require_relative 'flash_page.rb'
 
 Given(/^We are on FlashSale signup form$/) do
   @create = FlashPage.new
