@@ -24,7 +24,6 @@ Feature: Buy Credit packs on Quora
       | email                | pass     | account            | date  | cvv |
       | sunny_new@domain.com | sun1,./  |                    |       |     |
       | sunny_new@domain.com | sun1,./  | 4242424242424241   | 0224  | 329 |
-      | sunny_new@domain.com | sun1,./  | 5200 8282 8282 8210| 0323  | 234 |
 
     Scenario Outline: Declined Cards
       Given I am on quora site
