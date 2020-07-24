@@ -23,11 +23,4 @@ class PaymentPage < SitePrism::Page
   def logout
     signout.click
   end
-  def error_message
-    error.click
-  end
-
-  def card_declined
-    declined.click
-  end
 end
